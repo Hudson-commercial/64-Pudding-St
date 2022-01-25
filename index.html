@@ -8,33 +8,70 @@
       <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
       <link href="css/styles.css" type="text/css" rel="Stylesheet" />
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
       <style type="text/css">
          .hero-text {
-            background: transparent;
-            padding-top: 1em;
-            color: white!important;
+         background: transparent;
+         padding-top: 1em;
+         color: white!important;
          }
-
          .facts-section {
-            margin-top: 8em;
+         margin-top: 8em;
          }
          .fact-box {
-            background: whitesmoke;
-            border: .3px solid #eaeaea;
-            padding-top: 4em;
-            padding-bottom: 4em;
-            text-align: center;
-
+         background: whitesmoke;
+         border: .3px solid #eaeaea;
+         padding-top: 4em;
+         padding-bottom: 4em;
+         text-align: center;
          }
-          .text-orange {
-            color: #800000;
+         .text-orange {
+         color: #800000;
          }
          .fact-box p {
-            font-size: 1.8em;
+         font-size: 1.8em;
+         }
+         .right-side {
+         position: relative;
+         right: -11.4em;
+         }
+         .left-side {
+         position: relative;
+         left: 5%;
+         }
+         .margin-auto {
+         margin:  auto;
+         }
+         .module {
+         background: whitesmoke;
+         padding-top: 8%;
+         padding-bottom: 13%;
+         }
+         .alt-features-item .fab, .alt-features-item .fas {
+         position: relative;
+         right: 3em;
+         top: 1.4em;
+         font-size: 1.5em;
+         }
+         .icon-sides-3 {
+         color: #800000;
+         }
+         /*.dark-orange .alt-features-item .fab, .dark-orange .alt-features-item .fas{
+         color: #800000 !important;
+         }*/
+         @media screen and (max-width: 700px) {
+         .right-side {
+         float: none;
+         position: relative;
+         right: 0px;
+         margin: auto;
+         position: relative;
+         left: 20%;
+         margin-top: 6%;
+         }
          }
       </style>
    </head>
@@ -42,7 +79,7 @@
       <div id="header-hero-container">
          <header>
             <div class="flex container">
-               <a id="logo" href="#">64 Pudding Street</a>
+               <a id="logo" href="#">64 Pudding St.</a>
                <nav>
                   <button id="nav-toggle" class="hamburger-menu">
                   <span class="strip"></span>
@@ -54,7 +91,7 @@
                      <li><a class="" href="https://hudsoncommercial.com/properties/" target="_blank">Properties</a></li>
                      <li><a class="" href="#the-best">About</a></li>
                      <li><a class="" href="images.html">Gallery</a></li>
-                     <li><a class="" href="#the-best">Basic info</a></li>
+                     <li><a class="" href="#basic-info">Basic info</a></li>
                      <li><a class="" href="https://hudsoncommercial.com/contact-us/">Contact</a></li>
                      <li id="close-flyout"><span class="fas fa-times"></span></li>
                   </ul>
@@ -62,18 +99,13 @@
             </div>
          </header>
          <section id="hero">
-            <div class="cov">
             <div class="fade"></div>
             <div class="hero-text">
                <h1 class="text-white">64 Pudding Street </h1>
                <p class="text-white">For sale at a price of $879,000.</p>
             </div>
-            </div>
          </section>
       </div>
-
-
-
       <section id="how-it-works">
          <div class="container">
             <h2>Property Facts</h2>
@@ -101,44 +133,42 @@
             <h2>Pictures</h2>
             <div id="properties-slider" class="slick">
                <div>
-                  <img src="img/image.jpeg" alt="Property 1" />
+                  <img src="img/image.jpeg" alt="Property 1" class="img-thumbnail img-fluid"/>
                   <div class="property-details">
                   </div>
                </div>
                <div>
-                  <img src="img/image19.jpeg" alt="Property 1" />
+                  <img src="img/image19.jpeg" alt="Property 1" class="img-thumbnail img-fluid"/>
                   <div class="property-details">
                   </div>
                </div>
                <div>
-                  <img src="img/image18.jpeg" alt="Property 1" />
+                  <img src="img/image18.jpeg" alt="Property 1" class="img-thumbnail img-fluid"/>
                   <div class="property-details">
                   </div>
                </div>
                <div>
-                  <img src="img/19.jpeg" alt="Property 1" />
+                  <img src="img/19.jpeg" alt="Property 1" class="img-thumbnail img-fluid"/>
                   <div class="property-details">
                   </div>
                </div>
                <div>
-                  <img src="img/IMG_3250.JPG" alt="Property 1" />
+                  <img src="img/IMG_3250.JPG" alt="Property 1" class="img-thumbnail img-fluid" />
                   <div class="property-details">
                   </div>
                </div>
             </div>
-            <center><a href="images.html" class="view-images">View images lager</a> </center>
+            <center><a href="images.html" class="view-images" style="text-decoration: none !important;">View images lager</a> </center>
          </div>
       </section>
       <section id="the-best">
          <div class="flex container">
-            <img src="img/19.jpeg" alt="Property 1" style="object-fit: cover; " />
+            <img src="img/19.jpeg" alt="Property 1" style="object-fit: cover; "class="img-thumbnail img-fluid" />
             <div>
                <h2>About the Property</h2>
                <p class="large-paragraph">A somewhat new building right next to the busy Taconic State Parkway. The address is 64 Pudding Street, NY.  You will find close by to the building is the newly designed and constructed on and off ramps and bridge going over the Taconic Sate Parkway. This freestanding Mini mart is located in the hart Hudson Valley and has a total of 3,600 square feet. Great for new restaurant,  smoke shop, bar or convenience store.
-
-
-               <br>
-               <br>
+                  <br>
+                  <br>
                <p>Property Facts</p>
                <ul>
                   <li>Sale: Investment or Owner User</li>
@@ -147,55 +177,108 @@
                   <li>Price: $879,000</li>
                   <li>Year Built: 2003</li>
                </ul>
-               <a href="https://hudsoncommercial.com" class="rounded">Vist on our website</a>
+               <a href="https://hudsoncommercial.com" class="rounded"  style="text-decoration: none !important;">Vist on our website</a>
             </div>
          </div>
       </section>
-
       <style type="text/css">
-
       </style>
-
-
       <div class="border-bottom-cus ">
          <h1 class="display-5 text-center text-white pt-3 mt-2">64 Pudding Street for sale at $900,000
          </h1>
       </div>
-
-                        <!--Section: Content-->
-            <section class="facts-section">
-               <div class="container">
-               <div class="row">
-                  <div class="col-md-3">
-                     <div class="fact-box   card-1">
-                        <p class="text-orange ">Property Type</p>
-                        <h1 class="">Freestanding</h1>
+      <style type="text/css">
+      </style>
+      <section class="module dark-orange" id="basic-info">
+         <div class="">
+            <h2 class="module-title font-alt icon-sides-3 mt-5 text-center">Property Facts</h2>
+            <div class="module-subtitle font-serif icon-sides mt-3 text-center col-md-3 margin-auto">65 Pudding St - Strip Mall Freestanding Retail - Carmel Submarket Putnam Valley, NY 10579 3,600 SF GLA 1.47 AC Lot 2003 Built Multiple Tenancy.</div>
+         </div>
+         <div class="container">
+            <table class="table-responsive">
+               <div class="row mt-5">
+                  <div class="col-sm-6 col-md-3 col-lg-3 left-side  mt-3">
+                     <div class="alt-features-item">
+                        <div class="alt-features-icon"><i class="fas fa-building"></i></div>
+                        <h3 class="alt-features-title font-alt  icon-sides-3">Type</h3>
+                        <p class="icon-sides">Retail Freestanding</p>
+                     </div>
+                     <div class="alt-features-item">
+                        <div class="alt-features-icon"><i class="fas fa-globe-americas"></i></div>
+                        <h3 class="alt-features-title font-alt icon-sides-3">Location</h3>
+                        <p class="icon-sides">Suburban</p>
+                     </div>
+                     <div class="alt-features-item">
+                        <div class="alt-features-icon"><i class="fas fa-stream"></i></div>
+                        <h3 class="alt-features-title font-alt icon-sides-3">Year Built</h3>
+                        <p class="icon-sides">2003</p>
+                     </div>
+                     <div class="alt-features-item">
+                        <div class="alt-features-icon"><i class="fas fa-users"></i></i></div>
+                        <h3 class="alt-features-title font-alt icon-sides-3">Tenancy</h3>
+                        <p class="icon-sides">Multi</p>
                      </div>
                   </div>
-                  <div class="col-md-3">
-                     <div class="fact-box  text-dark card-1">
+                  <div class="col-md-6 col-lg-6 hidden-xs hidden-sm mt-3 ">
+                     <div class="alt-services-image align-center mt-3"><img width="100%"src="img/image18.jpeg" alt="Feature Image" class="img-thumbnail img-fluid"></div>
+                  </div>
+                  <div class="col-sm-6 col-md-3 col-lg-3  ">
+                     <div class="alt-features-item right-side mt-3">
+                        <div class="alt-features-icon"><i class="fas fa-city"></i></i></div>
+                        <h3 class="alt-features-title font-alt icon-sides-3">Stories</h3>
+                        <p class="icon-sides">1</p>
+                     </div>
+                     <div class="alt-features-item right-side">
+                        <div class="alt-features-icon"><i class="fas fa-road"></i></i></div>
+                        <h3 class="alt-features-title font-alt icon-sides-3">Frontage</h3>
+                        <p class="icon-sides"> 462'</p>
+                     </div>
+                     <div class="alt-features-item right-side">
+                        <div class="alt-features-icon"><i class="fas fa-archive"></i></div>
+                        <h3 class="alt-features-title font-alt icon-sides-3">Taxes</h3>
+                        <p class="icon-sides">$2.74/SF </p>
+                     </div>
+                     <div class="alt-features-item right-side">
+                        <div class="alt-features-icon"><i class="fas fa-taxi"></i></i></div>
+                        <h3 class="alt-features-title font-alt icon-sides-3">Parking</h3>
+                        <p class="icon-sides"> 25 Spaces</p>
+                     </div>
+                  </div>
+               </div>
+            </table>
+         </div>
+      </section>
+      <!--Section: Content-->
+      <section class="facts-section">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-3">
+                  <div class="fact-box   card-1">
+                     <p class="text-orange ">Property Type</p>
+                     <h1 class="">Freestanding</h1>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="fact-box  text-dark card-1">
                      <p class="text-orange ">Building Size</p>
                      <h1 class=""> 3,600SF</h1>
-                     </div>
                   </div>
-                  <div class="col-md-3 ">
-                     <div class="fact-box    card-1">
+               </div>
+               <div class="col-md-3 ">
+                  <div class="fact-box    card-1">
                      <p class="text-orange ">Year Built</p>
-
                      <h1 class="">2003</h1>
-                     </div>
                   </div>
-                  <div class="col-md-3">
-                     <div class="fact-box  card-1">
+               </div>
+               <div class="col-md-3">
+                  <div class="fact-box  card-1">
                      <p class="text-orange  ">Land Acres</p>
-
                      <h1 class="">1.47 AC</h1>
-                     </div>
                   </div>
                </div>
-               </div>
-            </section>
-
+            </div>
+         </div>
+      </section>
       <section id="services">
          <footer id="footer footer--bg">
             <div class="footer-top  footer--bg  text-white p-5">
